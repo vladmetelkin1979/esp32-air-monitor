@@ -2,6 +2,21 @@
 
 Проект домашней метеостанции на базе **ESP32** с операционной системой реального времени **FreeRTOS**. Устройство считывает данные с датчиков **AGS02MA** (TVOC) и **MQ-135** (CO₂, пары бензина, аммиак) и отображает их через веб-интерфейс по Wi-Fi.
 
+<p align="center">
+  <table>
+    <!-- <tr>
+      <td align="center"><b>Скриншот 1</b></td>
+      <td align="center"><b>Скриншот 2</b></td>
+    </tr> -->
+    <tr>
+      <td><img src="images/examle_monitoring.jpg" width="400"/></td>
+      <td><img src="images/1000032741.jpg" width="400"/></td>
+      <td><img src="images/1000032742.jpg" width="400"/></td>
+      <td><img src="images/1000032743.jpg" width="400"/></td>
+    </tr>
+  </table>
+</p>
+
 ## Возможности
 
 - Опрос датчиков AGS02MA (I²C) и MQ-135 (АЦП) каждые 5 секунд
